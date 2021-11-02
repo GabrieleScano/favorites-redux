@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Card from '../UI/Card';
 import './FavoriteItem.css';
 
