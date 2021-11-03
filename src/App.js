@@ -2,9 +2,9 @@ import { Route } from 'react-router-dom';
 
 import Navigation from './components/Nav/Navigation';
 import ProductsPage from './containers/Products';
-import FavoritesPage from './containers/Favorites';
+import FavoritesPage from './containers/Favorites'
 
-const App = props => {
+const App = () => {
   return (
     <>
       <Navigation />

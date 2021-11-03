@@ -1,8 +1,8 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
-import './Navigation.css';
+import './Navigation.css'
 
-const Navigation = props => {
+const Navigation = () => {
   return (
     <header className="main-header">
       <nav>
@@ -16,7 +16,7 @@ const Navigation = props => {
         </ul>
       </nav>
     </header>
-  );
-};
+  )
+}
 
 export default Navigation;
